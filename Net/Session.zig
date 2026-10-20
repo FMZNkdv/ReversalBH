@@ -127,7 +127,7 @@ pub fn listen(io: Io, stream: Io.net.Stream, cap: *const Replay.Cap) void {
 
     log("[{s}] -> connect\n", .{peerListener});
     defer log("[{s}] <- close\n", .{peerListener});
-    var acc: std.ArrayListUnmanaged(u8) = .empty;
+    var acc: std.ArrayList(u8) = .empty;
     var off: usize = 0;
     var pushed = false;
     var first = true;
