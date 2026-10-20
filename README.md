@@ -3,7 +3,7 @@ This is the Bit Heroes server emulator, last version, written in Zig.
 
 # Requirements
 
-- [Zig (0.17.0)](https://ziglang.org/download/)
+- [Zig (0.18.0)](https://ziglang.org/download/)
 - Desktop (with support x86_64)
 - Brain..? 🧑🏿‍🦯
 
